@@ -8,9 +8,9 @@ edition = "2021"
 [dependencies]
 derive = "1.0.0"
 features = "0.10.0"
-openmls_traits = { git = "https://github.com/openmls/openmls.git" }
+openmls_traits = { git = "https://github.com/openmls/openmls.git", rev="f3c10c1f0d26e95065da8267eb09ede6c2c31102"}
 serde = { version = "1.0.147", features = ["derive"] }
-openmls = { git = "https://github.com/openmls/openmls.git" }
-openmls_rust_crypto = { git = "https://github.com/openmls/openmls.git" }
+openmls = { git = "https://github.com/openmls/openmls.git", rev="f3c10c1f0d26e95065da8267eb09ede6c2c31102" }
+openmls_rust_crypto = { git = "https://github.com/openmls/openmls.git", rev="f3c10c1f0d26e95065da8267eb09ede6c2c31102" }
 thiserror = "^1.0"
 chrono = { version = "0.4.19", features = ["serde"] }
